@@ -17,6 +17,7 @@ connectMongoDB(process.env.MONGO_URL)
 
 app.use(express.urlencoded({extended:false}))
 app.use(bodyParser.json())
+app.use('/uploads', express.static('uploads'));
 
 app.get("/",(req,res)=>{
     return res.send("From the server side")
