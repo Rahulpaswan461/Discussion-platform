@@ -33,43 +33,43 @@ This project is a discussion forum where users can create accounts, post discuss
 - ### API DOCUMENTATION
   ## User Routes
   -Register a new user.
-   POST /api/user/register.
+  -POST /api/user/register.
   -Login user.
-   POST /api/user/login.
+  -POST /api/user/login.
   -Update user information.
-   PATCH /api/user/update/:id.
+  -PATCH /api/user/update/:id.
   -Delete user.
-   DELETE /api/user/delete/:id.
+  -DELETE /api/user/delete/:id.
   -Get list of all users.
-   GET /api/user/getusers.
+  -GET /api/user/getusers.
   -Search user by name.
-   GET /api/user/search/:name.
+  -GET /api/user/search/:name.
   -Follow a user.
-   POST /api/user/follow/:id.
-  - Unfollow a user.
-    POST /api/user/unfollow/:id.
+  -POST /api/user/follow/:id.
+  -Unfollow a user.
+  -POST /api/user/unfollow/:id.
 ## Discussion Routes
   -Create a new discussion.
-   POST /api/discussion/create.
+  -POST /api/discussion/create.
   -Update a discussion.
-   PATCH /api/discussion/update/:discussionId.
+  -PATCH /api/discussion/update/:discussionId.
   -Delete a discussion.
-   DELETE /api/discussion/delete/:discussionId.
+  -DELETE /api/discussion/delete/:discussionId.
   -Get discussions by hashtags.
-   GET /api/discussion/tags/:tags.
+  -GET /api/discussion/tags/:tags.
   -Get discussions by text.
-   GET /api/discussion/text/:text.
+  -GET /api/discussion/text/:text.
   -Comment on a discussion.
-   POST /api/discussion/comment/:discussionId.
+  -POST /api/discussion/comment/:discussionId.
   -Like a discussion.
-   POST /api/discussion/likes/:discussionId.
+  -POST /api/discussion/likes/:discussionId.
   -Like a comment.
-   POST /api/discussion/like-comment/:discussionId/:commentId.
+  -POST /api/discussion/like-comment/:discussionId/:commentId.
   -Get post views count.
-   GET /api/discussion/postviews/:discussionId.
+  -GET /api/discussion/postviews/:discussionId.
   -Reply to a comment.
-   POST /api/discussion/reply/:discussionId/:commentId.
+  -POST /api/discussion/reply/:discussionId/:commentId.
   -Like a reply.
-   POST /api/discussion/like-reply/:discussionId/:commentId/:replyId.
+  -POST /api/discussion/like-reply/:discussionId/:commentId/:replyId.
 
 
